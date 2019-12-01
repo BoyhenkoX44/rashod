@@ -1,0 +1,20 @@
+2019-11-27T13:09:38+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /home/realts5/public_html/wp-content/plugins/woocommerce/templates/single-product/product-image.php:28
+Stack trace:
+#0 /home/realts5/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/realts5/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1433): wc_get_template('single-product/...')
+#2 /home/realts5/public_html/wp-content/plugins/jet-woo-builder/templates/jet-single-images/global/index.php(7): woocommerce_show_product_images()
+#3 /home/realts5/public_html/wp-content/plugins/jet-woo-builder/includes/widgets/single-product/jet-woo-builder-single-images.php(218): include('/home/realts5/p...')
+#4 /home/realts5/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Jet_Woo_Builder_Single_Images->render()
+#5 /home/realts5/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 in /home/realts5/public_html/wp-content/plugins/woocommerce/templates/single-product/product-image.php on line 28
+
+2019-11-27T13:18:22+00:00 CRITICAL Uncaught Error: Call to a member function get_image_id() on null in /home/realts5/public_html/wp-content/plugins/woocommerce/templates/single-product/product-image.php:28
+Stack trace:
+#0 /home/realts5/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/realts5/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1433): wc_get_template('single-product/...')
+#2 /home/realts5/public_html/wp-content/plugins/jet-woo-builder/templates/jet-single-images/global/index.php(7): woocommerce_show_product_images()
+#3 /home/realts5/public_html/wp-content/plugins/jet-woo-builder/includes/widgets/single-product/jet-woo-builder-single-images.php(218): include('/home/realts5/p...')
+#4 /home/realts5/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Jet_Woo_Builder_Single_Images->render()
+#5 /home/realts5/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 in /home/realts5/public_html/wp-content/plugins/woocommerce/templates/single-product/product-image.php on line 28
+
